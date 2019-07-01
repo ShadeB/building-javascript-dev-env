@@ -22,6 +22,7 @@ function del(url) {
   });
   return fetch(request).then(onSuccess, onError);
 }
+
 function onSuccess(response) {
   return response.json();
 }
